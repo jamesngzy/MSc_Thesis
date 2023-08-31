@@ -42,7 +42,7 @@ Raw data files in \Data are named after their respective levels:
 2) Lvl3 :- Class (e.g. A01)
 3) Lvl4 :- Subclass (e.g. A01B)
 
-For example, Lv3B601980To2010.txt pertains to the Class (Lv3) B60 patent data from 1980 to 2010. However, this naming convention is different to literature, and only used for added clarity. 
+For example, Lv3B601980To2010.txt pertains to the Class (Lv3) B60 patent data from 1980 to 2010. However, this numbering convention is different to literature, and only used for added clarity. 
 
 In literature and in the final document, the following convention is used:
 
