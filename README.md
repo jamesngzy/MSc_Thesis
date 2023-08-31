@@ -66,26 +66,30 @@ Additional Information
 ***************
 Builds and System Specifications
 The code was run and implemented succesfully as of 31st August 2023 with the following specifications of Visual Studio Code by Microsoft:
-Version: 1.81.1 (user setup)
-Commit: 6c3e3dba23e8fadc360aed75ce363ba185c49794
-Date: 2023-08-09T22:22:42.175Z
-Electron: 22.3.18
-ElectronBuildId: 22689846
-Chromium: 108.0.5359.215
-Node.js: 16.17.1
-V8: 10.8.168.25-electron.0
-OS: Windows_NT x64 10.0.22621
+
+1. Version: 1.81.1 (user setup)
+2. Commit: 6c3e3dba23e8fadc360aed75ce363ba185c49794
+3. Date: 2023-08-09T22:22:42.175Z
+4. Electron: 22.3.18
+5. ElectronBuildId: 22689846
+6. Chromium: 108.0.5359.215
+7. Node.js: 16.17.1
+8. V8: 10.8.168.25-electron.0
+9. OS: Windows_NT x64 10.0.22621
 
 The code was run and implemented succesfully as of 31st August 2023 with the following Python extensions:
-Python v2023.14.0 (Python 3.10.11)
-Pylance v2023.8.50 
-Jupyter v2023.7.1002162226
+
+1. Python v2023.14.0 (Python 3.10.11)
+2. Pylance v2023.8.50 
+3. Jupyter v2023.7.1002162226
 
 The code was run and implemented succesfully as of 31st August 2023 with the following system specifications:
-OS Name: Microsoft Windows 11 Home
-Processor : Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz, 2304 Mhz, 4 Core(s), 8 Logical Processor(s)
+
+1. OS Name: Microsoft Windows 11 Home
+2. Processor : Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz, 2304 Mhz, 4 Core(s), 8 Logical Processor(s)
 
 The code finished with no errors as of 31st August 2023 with the following runtime:
+
 0.0 hour(s), 9.0 minutes, and 5.785089492797852 seconds.
 
 ***************
