@@ -9,6 +9,7 @@ Volkswagen AG is a German automobile and tech company.
 According to WIPO:
 B60 is the class for VEHICLES IN GENERAL
 B60L is the subclass for the following: 
+
 	1) PROPULSION OF ELECTRICALLY-PROPELLED VEHICLES
 	2) SUPPLYING ELECTRIC POWER FOR AUXILIARY EQUIPMENT OF ELECTRICALLY-PROPELLED VEHICLES
 	3) ELECTRODYNAMIC BRAKE SYSTEMS FOR VEHICLES IN GENERAL
@@ -29,12 +30,14 @@ Descriptive Foldernames
 
 ***************
 IMPORTANT
+
 1) Main.ipynb is an Interactive Python Notebook (.ipynb) file designed to be a sufficiently standalone code, provided it has downloaded all the relevant modules. Use %pip install or relevant commands to import any additional modules in Main.ipynb should you require them prior to running.
 2) You may opt to use Google Colab, an online platform by Google that allows anybody to write and execute arbitrary python code through the browser. Granted, this might take slightly longer to execute than running on your local coding environment.
 
 ***************
 About raw datasets:
 Raw data files in \Data are named after their respective levels: 
+
 1) Lvl1 :- Section (e.g. A)
 2) Lvl3 :- Class (e.g. A01)
 3) Lvl4 :- Subclass (e.g. A01B)
@@ -42,6 +45,7 @@ Raw data files in \Data are named after their respective levels:
 For example, Lv3B601980To2010.txt pertains to the Class (Lv3) B60 patent data from 1980 to 2010. However, this naming convention is different to literature, and only used for added clarity. 
 
 In literature and in the final document, the following convention is used:
+
 1) Lvl1 :- Section (e.g. A)
 2) Lvl2 :- Class (e.g. A01)
 3) Lvl3 :- Subclass (e.g. A01B)
@@ -50,6 +54,7 @@ Here, Lv3B601980To2010.txt would pertain to the Class (Lvl2) B60 patent data fro
 
 ***************
 Additional Information
+
 1) \Data\training_columns.txt are subclasses *used* in model training after pre-processing. Subclasses not listed were not trained.
 
 2) \Data\Models.txt contains model architectures of neural network models used for training. The labelling is consistent with the code and final document with two exceptions.
