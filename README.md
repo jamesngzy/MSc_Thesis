@@ -1,18 +1,18 @@
 ***************
 Summary
 
-1.) This folder contains the documents relevant for the understanding, processing, and visualisation for the dissertation pertaining to "Finding and predicting future values of patents" with dataset of patents approved from 1980 to 2010, with specific limitations, for the company Volkswagen AG. 
-2.) The purpose of this project is to do subclass level predictive analysis on the entire dataset from 2011 to 2015 for the company Volkswagen AG.
+1) This folder contains the documents relevant for the understanding, processing, and visualisation for the dissertation pertaining to "Finding and predicting future values of patents" with dataset of patents approved from 1980 to 2010, with specific limitations, for the company Volkswagen AG. 
+2) The purpose of this project is to do subclass level predictive analysis on the entire dataset from 2011 to 2015 for the company Volkswagen AG.
 
 Volkswagen AG is a German automobile and tech company. 
 
 According to WIPO:
 B60 is the class for VEHICLES IN GENERAL
 B60L is the subclass for the following: 
-	1.) PROPULSION OF ELECTRICALLY-PROPELLED VEHICLES
-	2.) SUPPLYING ELECTRIC POWER FOR AUXILIARY EQUIPMENT OF ELECTRICALLY-PROPELLED VEHICLES
-	3.) ELECTRODYNAMIC BRAKE SYSTEMS FOR VEHICLES IN GENERAL
-	4.) MAGNETIC SUSPENSION OR LEVITATION FOR VEHICLES; 
+	1) PROPULSION OF ELECTRICALLY-PROPELLED VEHICLES
+	2) SUPPLYING ELECTRIC POWER FOR AUXILIARY EQUIPMENT OF ELECTRICALLY-PROPELLED VEHICLES
+	3) ELECTRODYNAMIC BRAKE SYSTEMS FOR VEHICLES IN GENERAL
+	4) MAGNETIC SUSPENSION OR LEVITATION FOR VEHICLES; 
 	    MONITORING OPERATING VARIABLES OF ELECTRICALLY-PROPELLED VEHICLES; 
             ELECTRIC SAFETY DEVICES FOR ELECTRICALLY-PROPELLED VEHICLES
 
@@ -35,28 +35,28 @@ IMPORTANT
 ***************
 About raw datasets:
 Raw data files in \Data are named after their respective levels: 
-1.) Lvl1 :- Section (e.g. A)
-2.) Lvl3 :- Class (e.g. A01)
-3.) Lvl4 :- Subclass (e.g. A01B)
+1) Lvl1 :- Section (e.g. A)
+2) Lvl3 :- Class (e.g. A01)
+3) Lvl4 :- Subclass (e.g. A01B)
 
 For example, Lv3B601980To2010.txt pertains to the Class (Lv3) B60 patent data from 1980 to 2010. However, this naming convention is different to literature, and only used for added clarity. 
 
 In literature and in the final document, the following convention is used:
-1.) Lvl1 :- Section (e.g. A)
-2.) Lvl2 :- Class (e.g. A01)
-3.) Lvl3 :- Subclass (e.g. A01B)
+1) Lvl1 :- Section (e.g. A)
+2) Lvl2 :- Class (e.g. A01)
+3) Lvl3 :- Subclass (e.g. A01B)
 
 Here, Lv3B601980To2010.txt would pertain to the Class (Lvl2) B60 patent data from 1980 to 2010. The only difference is in the naming convention of the files.
 
 ***************
 Additional Information
-1.) \Data\training_columns.txt are subclasses *used* in model training after pre-processing. Subclasses not listed were not trained.
+1) \Data\training_columns.txt are subclasses *used* in model training after pre-processing. Subclasses not listed were not trained.
 
-2.) \Data\Models.txt contains model architectures of neural network models used for training. The labelling is consistent with the code and final document with two exceptions.
+2) \Data\Models.txt contains model architectures of neural network models used for training. The labelling is consistent with the code and final document with two exceptions.
  - multi_conv_model in code is CNN in the final document
  - feedback_model in code is Autoregressive RNN in the final document 
 
-3.) \Data\VOW3.DE_daily.csv and \Data\VOW3.DE_monthly.csv contains daily and monthly data of stock prices for the VOW3DE stock from August 1998 to December 2010. The daily file starts from 22nd July 1998 and goes up to 2023.
+3) \Data\VOW3.DE_daily.csv and \Data\VOW3.DE_monthly.csv contains daily and monthly data of stock prices for the VOW3DE stock from August 1998 to December 2010. The daily file starts from 22nd July 1998 and goes up to 2023.
 
 ***************
 Builds and System Specifications
