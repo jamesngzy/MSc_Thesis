@@ -8,11 +8,11 @@ Volkswagen AG is a German automobile and tech company.
 
 According to WIPO:
 B60 is the class for VEHICLES IN GENERAL
-B60L is the subclass for the following:
-	a.) PROPULSION OF ELECTRICALLY-PROPELLED VEHICLES
-	b.) SUPPLYING ELECTRIC POWER FOR AUXILIARY EQUIPMENT OF ELECTRICALLY-PROPELLED VEHICLES
-	c.) ELECTRODYNAMIC BRAKE SYSTEMS FOR VEHICLES IN GENERAL
-	d.) MAGNETIC SUSPENSION OR LEVITATION FOR VEHICLES; 
+B60L is the subclass for the following: 
+	1.) PROPULSION OF ELECTRICALLY-PROPELLED VEHICLES
+	2.) SUPPLYING ELECTRIC POWER FOR AUXILIARY EQUIPMENT OF ELECTRICALLY-PROPELLED VEHICLES
+	3.) ELECTRODYNAMIC BRAKE SYSTEMS FOR VEHICLES IN GENERAL
+	4.) MAGNETIC SUSPENSION OR LEVITATION FOR VEHICLES; 
 	    MONITORING OPERATING VARIABLES OF ELECTRICALLY-PROPELLED VEHICLES; 
             ELECTRIC SAFETY DEVICES FOR ELECTRICALLY-PROPELLED VEHICLES
 
@@ -34,17 +34,17 @@ IMPORTANT
 
 ***************
 About raw datasets:
-1.) Raw data files in \Data are named after their respective levels: 
-Lvl1 :- Section (e.g. A)
-Lvl3 :- Class (e.g. A01)
-Lvl4 :- Subclass (e.g. A01B)
+Raw data files in \Data are named after their respective levels: 
+1.) Lvl1 :- Section (e.g. A)
+2.) Lvl3 :- Class (e.g. A01)
+3.) Lvl4 :- Subclass (e.g. A01B)
 
 For example, Lv3B601980To2010.txt pertains to the Class (Lv3) B60 patent data from 1980 to 2010. However, this naming convention is different to literature, and only used for added clarity. 
 
 In literature and in the final document, the following convention is used:
-Lvl1 :- Section (e.g. A)
-Lvl2 :- Class (e.g. A01)
-Lvl3 :- Subclass (e.g. A01B)
+1.) Lvl1 :- Section (e.g. A)
+2.) Lvl2 :- Class (e.g. A01)
+3.) Lvl3 :- Subclass (e.g. A01B)
 
 Here, Lv3B601980To2010.txt would pertain to the Class (Lvl2) B60 patent data from 1980 to 2010. The only difference is in the naming convention of the files.
 
