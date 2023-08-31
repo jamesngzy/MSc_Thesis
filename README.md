@@ -7,7 +7,9 @@ Summary
 Volkswagen AG is a German automobile and tech company. 
 
 According to WIPO:
+
 B60 is the class for VEHICLES IN GENERAL
+
 B60L is the subclass for the following: 
 
 	1) PROPULSION OF ELECTRICALLY-PROPELLED VEHICLES
@@ -65,6 +67,7 @@ Additional Information
 
 ***************
 Builds and System Specifications
+
 The code was run and implemented succesfully as of 31st August 2023 with the following specifications of Visual Studio Code by Microsoft:
 
 1) Version: 1.81.1 (user setup)
