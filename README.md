@@ -24,7 +24,7 @@ With limitations found here: https://www.wipo.int/classifications/ipc/en/ITsuppo
 ***************
 Descriptive Foldernames
 
-1) The "Dissertation documents" folder contains relevant material pertaining to the assembly of the final document.
+1) The "Dissertation documents" folder contains relevant material pertaining to the assembly of the final document and final presentation material.
 2) The "Images" folder contains relevant material pertaining to results' images and visualisation aids used in the final document. 
 3) The "Data" folder contains relevant material pertaining to the original raw datasets, intermediary data, or external data used during the coding assembly.
 4) The "Model Training" folder contains the training history plots of machine learning models used in this dissertation project.
