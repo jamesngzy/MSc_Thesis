@@ -29,12 +29,15 @@ Descriptive Foldernames
 3) The "Data" folder contains relevant material pertaining to the original raw datasets, intermediary data, or external data used during the coding assembly.
 4) The "Model Training" folder contains the training history plots of machine learning models used in this dissertation project.
 4) "Main.ipynb" contains the entirety of the code used throughout this dissertation project.
+5) "Main.py" is the main code converted into a .py file.
 
 ***************
 IMPORTANT
 
 1) Main.ipynb is an Interactive Python Notebook (.ipynb) file designed to be a sufficiently standalone code, provided it has downloaded all the relevant modules. Use %pip install or relevant commands to import any additional modules in Main.ipynb should you require them prior to running.
 2) You may opt to use Google Colab, an online platform by Google that allows anybody to write and execute arbitrary python code through the browser. Granted, this might take slightly longer to execute than running on your local coding environment.
+3) Main.py is exported from the .ipynb file and has not been tested yet. Please look at https://code.visualstudio.com/docs/python/jupyter-support-py#:~:text=When%20you%20open%20a%20notebook,py). for an idea of how the code is structured.
+4) Alternatively, simultaneously refer to Main.ipynb to see how code is segmented.
 
 ***************
 About raw datasets:
